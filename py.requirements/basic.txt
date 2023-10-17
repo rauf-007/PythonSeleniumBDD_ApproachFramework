@@ -1,0 +1,26 @@
+# ============================================================================
+# BEHAVE: PYTHON PACKAGE REQUIREMENTS: Normal usage/installation (minimal)
+# ============================================================================
+# DESCRIPTION:
+#    pip install -r <THIS_FILE>
+#
+# SEE ALSO:
+#  * https://pip.pypa.io/en/stable/user_guide/
+# ============================================================================
+
+cucumber-tag-expressions >= 4.1.0
+enum34; python_version < '3.4'
+parse >= 1.18.0
+parse_type >= 0.6.0
+six >= 1.15.0
+
+traceback2;  python_version < '3.0'
+contextlib2; python_version < '3.5'
+win_unicode_console >= 0.5;  python_version < '3.6'
+colorama >= 0.3.7
+
+# -- DISABLED PYTHON 2.6 SUPPORT:
+# REQUIRES: pip >= 6.0
+# argparse;    python_version <= '2.6'
+# ordereddict; python_version <= '2.6'
+# importlib;   python_version <= '2.6'

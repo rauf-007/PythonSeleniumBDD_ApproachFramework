@@ -1,0 +1,16 @@
+# ============================================================================
+# BEHAVE: PYTHON PACKAGE REQUIREMENTS: All requirements
+# ============================================================================
+# DESCRIPTION:
+#    pip install -r <THIS_FILE>
+#
+# SEE ALSO:
+#  * https://pip.pypa.io/en/stable/user_guide/
+# ============================================================================
+# ALREADY: -r testing.txt
+# ALREADY: -r docs.txt
+
+-r basic.txt
+-r behave_extensions.txt
+-r develop.txt
+-r jsonschema.txt
